@@ -22,7 +22,8 @@ allowed-tools: Read, Write, Bash
 **Discussion** — ① 해석 → ② 기존 연구 비교 → ③ 한계 → ④ 향후 방향  
 **Conclusion** — ① 연구 요약 → ② 핵심 기여 재확인 → ③ 확장 방향 (간결하게)
 
-→ Read `assets/paper_template_ko.md` — 섹션별 한국어 문장 템플릿 전체
+→ Read `assets/paper_template_ko.md` — 섹션별 한국어 문장 템플릿 전체  
+→ Read `assets/paper_template_en.md` — 영문 저널 투고용 영어 템플릿 (동일 5섹션 구조)
 
 ## 데이터 전처리 및 분리
 
