@@ -1,0 +1,20 @@
+{
+  "farm_id": "farm_sample",
+  "name": "김첨단 스마트팜 (딸기·파프리카동)",
+  "location": {
+    "lat": 35.17, "lon": 128.07, "region": "경남 진주시",
+    "nx": 90, "ny": 79
+  },
+  "greenhouse_type": "venlo_glass",
+  "area_m2": 6000,
+  "crops": ["딸기", "파프리카"],
+  "sensors": [
+    "indoor_temp_humidity", "outdoor_temp", "co2", "solar_radiation",
+    "soil_moisture", "soil_ec", "soil_temp", "wind_speed", "wind_direction", "rain"
+  ],
+  "actuators": [
+    "roof_window", "side_window", "thermal_curtain", "shade_curtain",
+    "haf_fan", "exhaust_fan", "fog_system", "hot_water_heating",
+    "nutrient_delivery", "co2_generator"
+  ]
+}
