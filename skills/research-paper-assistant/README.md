@@ -15,7 +15,8 @@ research-paper-assistant/
 ├── SKILL.md                       # 스킬 진입점
 ├── README.md                      # 본 문서
 ├── assets/
-│   └── paper_template_ko.md       # 6개 섹션(서론~결론) 한국어 문장 템플릿
+│   ├── paper_template_ko.md       # 5개 섹션(Intro~Conclusion) 한국어 문장 템플릿
+│   └── paper_template_en.md       # 동일 5섹션 영어 템플릿 (영문 저널 투고용)
 ├── references/
 │   └── data_preprocessing.py      # 결측 처리·피처·시간분리·5-fold CV
 └── scripts/
@@ -25,7 +26,8 @@ research-paper-assistant/
 
 | 파일 | 핵심 내용 | 역할 |
 |------|-----------|------|
-| `paper_template_ko.md` | 서론·관련연구·방법·결과·토론·결론 빈칸 템플릿 + Table 양식 | 빈 화면 대신 채워 넣을 문장 골격 제공 |
+| `paper_template_ko.md` | Intro·M&M·Results·Discussion·Conclusion 빈칸 템플릿 + Table 양식 (한국어) | 빈 화면 대신 채워 넣을 문장 골격 제공 |
+| `paper_template_en.md` | 동일 5섹션 영어 템플릿 | 영문 저널 투고용 (placeholder 채우기) |
 | `data_preprocessing.py` | `time_based_split(0.70)`, `get_timeseries_cv(5)` | 결측 처리·클리핑·피처 엔지니어링·시계열 분리 |
 | `run_experiment.py` | `set_seed(42)`, `run_regression_experiment()`, `run_ablation_study()` | Train 5-fold CV + Test(30%) 성능 보고 |
 | `evaluate_and_plot.py` | `plot_prediction()`, `plot_ablation()`, `plot_feature_importance()` | Table 1·2 / Figure 2·3·4 자동 생성 |
